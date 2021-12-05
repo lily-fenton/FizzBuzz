@@ -10,7 +10,7 @@ public class FizzBuzz
     {
         var expected = "1,2,fizz,4,buzz,fizz,7,8,fizz,buzz";
 
-        var actual = GetFizzBuzz(12);
+        var actual = GetFizzBuzz(10);
 
         Assert.AreEqual(expected, actual);
     }
