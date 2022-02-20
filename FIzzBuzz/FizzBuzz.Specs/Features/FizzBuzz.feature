@@ -1,8 +1,11 @@
-﻿Feature: FizzBuzz
+﻿Feature: Fizz Buzz
 
 The FizzBuzz game involves saying the word "fizz" when the number is
 divisible by 3 and "buzz" when the number is divisible by 5. When the
 number can be divided by 3 and 5, you say "fizzbuzz".
+
+There is a fiendish variation of the game called "FizzBuzzFuzz" where numbers
+divisible by 7 are also named "fuzz".
 
 Scenario Outline: Fizz Buzz
 	Given I am playing FizzBuzz
